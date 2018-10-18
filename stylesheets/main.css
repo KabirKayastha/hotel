@@ -1,0 +1,21 @@
+/* line 2, ../sass/base/_base.scss */
+.section-padding {
+  padding: 100px;
+}
+
+/* line 1, ../sass/modules/_about.scss */
+.about {
+  background-color: #222;
+  color: #333;
+}
+
+/* line 6, ../sass/modules/_about.scss
+.hr {
+  margin: 100px 0px 50px 0px;
+}
+
+line 2, ../sass/modules/_hr.scss
+.hr {
+  margin: 100px 0px 50px 0px;
+}
+ */
