@@ -1,4 +1,9 @@
-// section-padding
+//hr-margin
+hr{
+    margin: $hr-margin;
+}
+
+//secton-padding
 .section-padding{
-	padding: 100px;
+	padding: $section-padding
 }
