@@ -1,0 +1,17 @@
+.affix {
+  	top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+
+.affix + .container {
+    padding-top: 100px;
+}
+
+nav ul li {
+	padding: 20px 15px 18px 15px;
+}
+
+nav ul li:hover {
+	background-color: #333;
+}

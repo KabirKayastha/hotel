@@ -1,9 +1,16 @@
-//hr-margin
+//hr design
 hr{
     margin: $hr-margin;
+    height: $hr-height;
+    background-color: $primary-color;
 }
 
 //secton-padding
 .section-padding{
 	padding: $section-padding
+}
+
+.about-img {
+	border: $img-border;
+	border-radius: $radius;
 }
