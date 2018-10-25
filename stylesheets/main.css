@@ -137,3 +137,45 @@ nav ul li:hover {
   transition-delay: 0.2s;
   opacity: 1;
 }
+
+/* line 1, ../sass/modules/_service-icons.scss */
+.service-icon {
+  color: #333;
+  background: #ccc;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 45px;
+  transition: 0.6s ease;
+  padding-top: 10%;
+}
+
+/* line 13, ../sass/modules/_service-icons.scss */
+.service-icon:hover {
+  color: #ccc;
+  background: #333;
+}
+
+/* line 1, ../sass/modules/_messages.scss */
+.message {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  font-family: "Lucida Console";
+  padding-left: 10px;
+}
+
+/* line 10, ../sass/modules/_messages.scss */
+input.message {
+  margin: 0px 0px 20px 0px;
+  padding: 40px 0 10px 10px;
+}
+
+/* line 16, ../sass/modules/_messages.scss */
+textarea.message {
+  height: 150px;
+  resize: none;
+  margin-top: 20px;
+}

@@ -1,0 +1,21 @@
+.message{
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #ccc;
+	outline: none;
+	font-family: "Lucida Console";
+	padding-left: 10px;
+}
+
+input.message{
+	margin: 0px 0px 20px 0px;
+	padding: 40px 0 10px 10px;
+
+}
+
+textarea.message{
+	height: 150px;
+	resize: none;
+	margin-top: 20px;
+}
+
