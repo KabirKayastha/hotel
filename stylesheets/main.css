@@ -179,3 +179,33 @@ textarea.message {
   resize: none;
   margin-top: 20px;
 }
+
+/* line 22, ../sass/modules/_messages.scss */
+.submit {
+  margin-top: 30px;
+  border: none;
+  border-radius: 3px;
+  box-shadow: none;
+  background-color: #9b9b9b;
+  color: #000;
+  height: 40px;
+  width: 125px;
+  font-family: "Maiandra GD";
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  outline: none;
+}
+/* line 37, ../sass/modules/_messages.scss */
+.submit:hover {
+  background-color: #ccc;
+  color: #000;
+}
+
+/* line 43, ../sass/modules/_messages.scss */
+.contact-form > h4 {
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-family: "consolas";
+  font-weight: bold;
+}
