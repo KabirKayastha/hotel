@@ -16,6 +16,11 @@ hr {
   border-radius: 3px;
 }
 
+/* line 19, ../sass/base/_base.scss */
+.book {
+  margin: 0 0 10px 0;
+}
+
 /* line 1, ../sass/modules/_logo.scss */
 .logo {
   position: absolute;

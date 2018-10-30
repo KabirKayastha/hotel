@@ -1,0 +1,65 @@
+body{
+	background-color: #222;
+}
+
+.navbar-inverse{
+	background-color: #000;
+}
+
+.center {
+	margin-top: 100px;
+	color: #ffc20f;
+	font-family: Hobo Std;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.container{
+	margin-top: 40px;
+	color: #fff;
+}
+
+.form-group input{
+	border-radius: 0px;
+}
+
+input[type=date] {
+	text-transform: uppercase;
+}
+
+input[type=submit] {
+	margin-top: 10px;
+	height: 100%;
+	background-color: transparent;
+	border: 2px solid #ffc20f;
+	border-radius: 0;
+	color: #ffc20f;
+}
+
+hr{
+	border-top: .5px solid #ffc20f;
+	border-bottom: .5px solid #ffc20f;
+	background-color: transparent;
+}
+
+.pagenav li a{
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 12px;
+
+}
+
+.pagenav{
+	list-style: none;
+	padding-left: 0;
+}
+
+@media only screen and (max-width: 760px) {
+
+	.navbar-inverse{
+		background: ;
+	}
+	
+}
