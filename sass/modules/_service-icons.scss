@@ -14,3 +14,19 @@
 	color: #ccc;
 	background: #333;
 }
+
+@media only screen and (max-width: 760px) {
+
+    .s-icon{
+        margin-top: 50px;
+    }
+    
+}
+
+@media only screen and (min-width: 760px) {
+
+    .s-margin{
+        margin-top: 50px;
+    }
+    
+}

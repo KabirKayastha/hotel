@@ -56,7 +56,7 @@ nav ul li:hover {
 /* line 1, ../sass/modules/_css-slider.scss */
 .room ul {
   position: relative;
-  top: 50px;
+  top: 30px;
   width: 100%;
   height: 100vh;
   margin: 0;
@@ -162,6 +162,18 @@ nav ul li:hover {
   background: #333;
 }
 
+@media only screen and (max-width: 760px) {
+  /* line 20, ../sass/modules/_service-icons.scss */
+  .s-icon {
+    margin-top: 50px;
+  }
+}
+@media only screen and (min-width: 760px) {
+  /* line 28, ../sass/modules/_service-icons.scss */
+  .s-margin {
+    margin-top: 50px;
+  }
+}
 /* line 1, ../sass/modules/_messages.scss */
 .message {
   width: 100%;
